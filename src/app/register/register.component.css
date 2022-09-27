@@ -1,0 +1,27 @@
+input {
+    width: 60%;
+    margin-left: 100px;
+}
+
+label {
+    color:rgb(237, 33, 33);
+    margin-left: 100px;
+}
+
+form {
+    padding: 20px;
+    margin-left: 400px;
+    width: 40%;
+    border-style: inset;
+    border-radius: 10px;
+    border-color: black;
+    box-shadow: 2px 3px 4px rgb(244, 107, 114);
+}
+
+button {
+    margin-left: 200px;
+}
+
+span {
+    width: 100%;
+}

@@ -1,0 +1,13 @@
+img{
+    height:60px;
+    width:55px;    
+}
+.container-fluid{
+
+    background-color: rgb(244, 152, 157);
+}
+.nav-link{
+    color: aqua;
+    font-weight: bold;
+    font-size: larger;
+}

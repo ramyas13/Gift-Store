@@ -1,0 +1,40 @@
+
+<div  *ngFor="let product of productDetail" style="float:left;">
+    <div class="container" style="margin-left: 60px;margin-top: 20px;">
+      <div class="row">
+        <div class="col col-3 col-sm-6 col-md-3">
+          <div class="card" style="width: 18rem; margin:20px;">
+            <img [src]="product.img" class="prodimage">
+            <div class="card-body">
+                <div>
+                   <p style="font-size: larger;color:rgb(9, 9, 143);">{{product.pname}}</p>
+                <span (click)="showproductDetailsToggle()" [ngClass]="toggleContent()"></span>
+                </div>
+                <div [hidden]="productDetails">
+                    {{product.pdescription}}
+                    <br>
+                   <p style="color:black;font-weight: bold;" >{{ product.price | currency:'INR'}}</p>
+            <div class="card-text" [ngSwitch]="product.status">
+                        <div *ngSwitchCase="'Instock'">
+                          <p class="text-success">Status : {{product.status}}</p>
+                          <button (click)="addToCart(product)" class="btn btn-primary">Add to Cart</button>
+                          <br>
+                          
+                      </div>
+                      <p *ngSwitchCase="'Out of Stock'" class="text-danger">Status : {{product
+                        .status}}</p>
+                        </div>
+                       
+                
+
+                
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+ 
+
+
+

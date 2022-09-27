@@ -1,0 +1,15 @@
+.prodimage{
+    border-radius: 50%;
+    height:250px;
+    
+}
+.prod{
+    text-align: center;
+    font-weight: bold;
+}
+.prodimage:hover {
+    color: rgb(174, 155, 11);
+    background-color: rgb(40, 40, 40);
+    transform:scale(1.2);
+
+}

@@ -1,0 +1,27 @@
+
+<div  *ngFor="let product of productDetail" style="float:left;">
+    <div class="container" style="margin-left: 60px;margin-top: 20px;">
+      <div class="row">
+        <div class="col col-3 col-sm-6 col-md-3">
+          <div class="card" style="width: 18rem; margin:20px;">
+            <img [src]="product.img" class="prodimage">
+            <div class="card-body">
+                <div>
+                    <p style="font-size: larger;color:rgb(9, 9, 143);">{{product.pname}}</p>
+                <span (click)="showproductDetailsToggle()" [ngClass]="toggleContent()"></span>
+                </div>
+                <div [hidden]="productDetails">
+                    <p style="color:black;font-weight: bold;" >{{ product.price | currency:'INR'}}</p>
+                    <app-counter></app-counter>
+                    <br>
+                </div>
+                    <a href="#" class="btn btn-warning">Buy</a>
+    
+               
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>

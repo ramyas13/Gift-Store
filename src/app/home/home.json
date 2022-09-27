@@ -1,0 +1,45 @@
+[
+    {
+        "pid":1,
+        "pname":"Metallic Painted Clay Diyas",
+        "status":"Instock",
+        "price":350,
+        "img":"https://cdn.igp.com/f_auto,q_auto,t_pnopt6prodlp/products/p-metallic-painted-clay-diyas-set-of-8-188467-m.jpg"
+    },
+    {
+        "pid":2,
+        "pname":"Radiant Cartoon Kids Blanket",
+        "status":"Instock",
+        "price":400,
+        "img":"https://cdn.igp.com/f_auto,q_auto,t_pnopt12prodlp/products/p-radiant-cartoon-print-kids-blanket-5044-m.jpg"
+    },
+    {
+        "pid":3,
+        "pname":"Wooden Salad Bowl Toss Set",
+        "status":"Instock",
+        "price":500,
+        "img":"https://cdn.igp.com/f_auto,q_auto,t_pnopt8prodlp/products/p-wooden-salad-bowl-toss-n-serve-set-151112-m.jpg"
+    },
+    {
+        "pid":4,
+        "pname":"Stainless Steel Water Bottle",
+        "status":"Out of Stock",
+        "price":200,
+        "img":"https://cdn.igp.com/f_auto,q_auto,t_pnopt8prodlp/products/p-live-love-lift-personalized-steel-travel-mug-133091-m.jpg"
+    },
+    {
+        "pid":5,
+        "pname":"Squares Printed  Bedsheet",
+        "status":"Instock",
+        "price":400,
+        "img":"https://cdn.igp.com/f_auto,q_auto,t_pnopt8prodlp/products/p-squares-printed-fitted-double-bedsheet-145079-m.jpg"
+    },
+    {
+        "pid":6,
+        "pname":"Hampers",
+        "status":"Instock",
+        "price":1000,
+        "img":"https://cdn.igp.com/f_auto,q_auto,t_pnopt8prodlp/products/p-pet-love-personalized-canvas-frame-132624-m.jpg"
+    }
+
+]

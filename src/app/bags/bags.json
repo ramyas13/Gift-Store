@@ -1,0 +1,45 @@
+[
+    {
+        "pid":1,
+        "pname":"Birthday gift",
+        "pdescription":"Varieties of Birthday gifts are available",
+        "price":350,
+        "img":"https://static.toiimg.com/photo/msid-77654061/77654061.jpg"
+    },
+    {
+        "pid":2,
+        "pname":"Annivarsary gift",
+        "pdescription":"Varieties of Annivarsary gifts are available",
+        "price":400,
+        "img":"https://www.oyegifts.com/flowers-n-gifts/vendordata/resized/gifts-online-158.jpg"
+    },
+    {
+        "pid":3,
+        "pname":"Cakes",
+        "pdescription":"Varieties of Cakes are available",
+        "price":500,
+        "img":"https://cdn.igp.com/f_auto,q_auto/cards/birthday-gifts2.jpg"
+    },
+    {
+        "pid":4,
+        "pname":"Chocolates",
+        "pdescription":"Varieties of Chocolates are available",
+        "price":200,
+        "img":"https://cdn.shopify.com/s/files/1/0420/8669/5079/products/ChocolateBarBlack_61858ada-bdd2-49c2-b280-4d4df44e7dce_1024x.jpg?v=1622177517"
+    },
+    {
+        "pid":5,
+        "pname":"Flowers",
+        "pdescription":"Varieties of Flowers are available",
+        "price":400,
+        "img":"https://images.unsplash.com/photo-1581264692636-3cf6f29655c2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Zmxvd2VyJTIwZ2lmdHxlbnwwfHwwfHw%3D&w=1000&q=80"
+    },
+    {
+        "pid":6,
+        "pname":"Hampers",
+        "pdescription":"Varieties of Hampers are available",
+        "price":1000,
+        "img":"https://media.istockphoto.com/photos/gift-basket-on-gray-background-picture-id1169632374?k=20&m=1169632374&s=612x612&w=0&h=PjN-bVLOYsLg11Bq0DNzE-zrk6hZyejxdEB7Hq4ObvY="
+    }
+
+]

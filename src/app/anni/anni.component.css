@@ -1,0 +1,32 @@
+.card-title{
+    text-align: center;
+    
+}
+.card-body{
+    text-align: center;
+}
+.prodimage{
+    height:210px;
+    width:288px;
+}
+.card{
+    border-radius: 10px 15px 20px;
+    box-shadow: 2px 4px 2px;
+    border-width: 2px,3px,4px;
+    background-color: rgba(145, 236, 203, 0.372);
+    
+}
+.card-state{
+    font-weight: bold;
+}
+.card-text{
+    font-weight: 700;
+
+
+}
+.prodimage:hover {
+    color: rgb(174, 155, 11);
+    background-color: rgb(40, 40, 40);
+    transform:scale(1.2);
+
+}

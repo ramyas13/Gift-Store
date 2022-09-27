@@ -1,0 +1,39 @@
+[
+    {
+        "pid":1,
+        "pname":"Green Earing",
+        "price":350,
+        "img":"https://cdn.igp.com/f_auto,q_auto,t_pnopt8prodlp/products/p-traditional-kundan-jhumka-earrings-145870-m.jpg"
+    },
+    {
+        "pid":2,
+        "pname":"Silver Chain",
+        "price":400,
+        "img":"https://cdn.igp.com/f_auto,q_auto,t_pnopt8prodlp/products/p-contemporary-styled-heart-shaped-danglers-131346-m.jpg"
+    },
+    {
+        "pid":3,
+        "pname":"Transparent Chain",
+        "price":500,
+        "img":"https://cdn.igp.com/f_auto,q_auto,t_pnopt8prodlp/products/p-pretty-heart-cz-pendant-rose-gold-152909-m.jpg"
+    },
+    {
+        "pid":4,
+        "pname":"Customized Chain",
+        "price":200,
+        "img":"https://cdn.igp.com/f_auto,q_auto,t_pnopt8prodlp/products/p-floral-hearts-openable-cz-pendant-rose-gold-152910-m.jpg"
+    },
+    {
+        "pid":5,
+        "pname":"Green Bangles",
+        "price":400,
+        "img":"https://cdn.igp.com/f_auto,q_auto,t_pnopt8prodlp/products/p-green-stones-oxidized-matte-finish-kada-bangle-135584-m.jpg"
+    },
+    {
+        "pid":6,
+        "pname":"Hngings",
+        "price":1000,
+        "img":"https://cdn.igp.com/f_auto,q_auto,t_pnopt8prodlp/products/p-mandala-antique-gold-finish-juda-pin-143889-m.jpg"
+    }
+
+]

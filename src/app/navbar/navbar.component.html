@@ -1,0 +1,78 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <!--STRING INTERPOLATION-->
+      <!--PROPERTY BINDING IN img tag-->
+      <a class="navbar-brand" href="#">
+        <img [src]="logo" alt="Drizly">{{title}}</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <!--href - render the entire page-->
+            <!--SPA - Partial Rendering - routerLink-->
+            <a class="nav-link active"  aria-current="page" routerLink="">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="register" *ngIf="!auth" >Register</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="product"  *ngIf="admin">details</a>
+          </li>
+          <li class="nav-item dropdown" *ngIf="auth" >
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Gifts
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" routerLink="birth">Birthdays</a></li>
+              <li><a class="dropdown-item" href="#"></a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" routerLink="anniver">Anniversary</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" routerLink="choco">Chocolates</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" routerLink="cake">Cakes</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" routerLink="cake">Flowers</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" routerLink="cake">Plants</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown" *ngIf="auth">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              More
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" routerLink="home">Home & Living</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" routerLink="anni">Jewellery</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" routerLink="fashion">Fashion Accessories</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" routerLink="bags">Bags & Clutches</a></li>
+            </ul>
+          </li>
+          <li class="nav-item" *ngIf="auth">
+            <a class="nav-link" routerLink="query">Help</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <!--<input type="text" #productname placeholder="Enter product name" style="border-radius:10px;">&nbsp;
+          EVENT BINDING
+          <button class="btn btn-outline-success" type="submit" (click)="search_product(productname.value);productname.value=''" style="border-radius:10px;">Search</button>
+          Access the Search Component
+          <br>
+         
+          &nbsp;&nbsp;&nbsp;
+          <app-search [product]="productentered"></app-search>-->
+          <button routerLink='cartitem' *ngIf="auth">
+            <span class="fa fa-cart-plus" style="font-size:16px;color:black"></span>
+          </button> &nbsp;&nbsp;&nbsp;
+          <a class="btn btn-outline-danger" type="submit" style="border-radius:10px;color:black;" routerLink="login"
+            *ngIf="auth">Logout</a>
+        </form>
+      </div>
+    </div>
+  </nav>
+  
